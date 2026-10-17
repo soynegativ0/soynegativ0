@@ -15,12 +15,14 @@
 ##  Contribution Calendar
 
 
+<!--
 <div align="center">
-  <h3> GitHub Streak</h3>
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=soynegativ0&theme=dracula&ring=bd93f9&fire=50fa7b&currStreakLabel=bd93f9&sideNums=bd93f9&currStreakNum=f8f8f2&sideLabels=f8f8f2&dates=6272a4&stroke=44475a" alt="GitHub Streak" width="95%" />
-  </a>
+<h3>GitHub Streak</h3>
+<a href="https://git.io/streak-stats">
+<img src="https://streak-stats.demolab.com?user=soynegativ0&theme=dracula&ring=bd93f9&fire=50fa7b&currStreakLabel=bd93f9&sideNums=bd93f9&currStreakNum=f8f8f2&sideLabels=f8f8f2&dates=6272a4&stroke=44475a" alt="GitHub Streak" width="95%" />
+</a>
 </div>
+-->
 
 ---
 
