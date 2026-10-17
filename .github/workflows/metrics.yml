@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-          - name: Generar calendario isometrico
+          - name: Generate isocalendar
             uses: lowlighter/metrics@latest
             with:
               filename: isocalendar.svg
@@ -27,11 +27,15 @@ jobs:
               plugin_isocalendar: yes
               plugin_isocalendar_duration: full-year
 
-          - name: Cambiar textos azules por morado en isocalendar.svg
+          - name: Checkout repository
+            uses: actions/checkout@v4
+            with:
+              ref: main
+
+          - name: Purple text in isocalendar
             run: |
-              git pull origin main
               sed -i 's/#0366d6/#bd93f9/gI; s/#58a6ff/#bd93f9/gI; s/#2f81f7/#bd93f9/gI' isocalendar.svg
               git config user.name "github-actions[bot]"
               git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-              git commit -am "Aplicar color morado a isocalendar" || true
-              git push
+              git add isocalendar.svg
+              git diff --staged --quiet || (git commit -m "purple isocalendar" && git push)
