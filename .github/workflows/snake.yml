@@ -2,7 +2,7 @@ name: Generate Snake Game
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6 hours instead of daily
+    - cron: "0 */8 * * *"  # Every 6 hours instead of daily
   workflow_dispatch:
   push:
     branches: ["main"]
