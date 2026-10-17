@@ -24,7 +24,6 @@
 </div>
 -->
 
----
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/soynegativ0/soynegativ0/main/isocalendar.svg?v=2" width="100%" />
