@@ -28,7 +28,7 @@ jobs:
           github_user_name: soynegativ0
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?color_background=#282a36&color_snake=#ff79c6&color_dots=#282a36,#44475a,#6272a4,#bd93f9,#ff79c6
       
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
