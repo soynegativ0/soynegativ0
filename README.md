@@ -3,8 +3,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhruvin-sarkar/dhruvin-sarkar/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhruvin-sarkar/dhruvin-sarkar/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soynegativ0/soynegativ0/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/soynegativ0/soynegativ0/output/github-snake.svg" />
     <img alt="github-snake" src="github-snake.svg" width="100%" />
   </picture>
 </div>
@@ -18,14 +18,14 @@
 <div align="center">
   <h3> GitHub Streak</h3>
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=dhruvin-sarkar&theme=transparent" alt="GitHub Streak" width="95%" />
+    <img src="https://streak-stats.demolab.com?user=soynegativ0&theme=transparent" alt="GitHub Streak" width="95%" />
   </a>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dhruvin-sarkar/dhruvin-sarkar/main/isocalendar.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/soynegativ0/soynegativ0/main/isocalendar.svg" width="100%" />
 </div>
 
 ---
