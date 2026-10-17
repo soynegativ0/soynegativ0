@@ -3,7 +3,6 @@ name: Metrics
 on:
   schedule:
     - cron: "16 */8 * * *"
-      timezone: "Europe/Spain"
   workflow_dispatch:
   push:
     branches: ["main"]
